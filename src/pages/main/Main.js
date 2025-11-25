@@ -52,10 +52,7 @@ export default function Main() {
             //URL 정의
             const url = `${kobisBaseUrl}/movie/searchMovieInfo.json?key=${kobisApiKey}&movieCd=${movieCd}`;
             const urlPoster = `${kmdbBaseUrl}/search_json2.jsp?collection=kmdb_new2&ServiceKey=${kmdbApiKey}&title=${movieNm}`;
-            const defaultPoster = process.env.PUBLIC_URL
-                ? `${process.env.PUBLIC_URL}/img/default.jpg`
-                : "/img/default.jpg"; // public/img/default.jpg 위치
-
+            const defaultPoster = `${process.env.PUBLIC_URL}/img/default.jpg`;
 
             // 호출
             try{
