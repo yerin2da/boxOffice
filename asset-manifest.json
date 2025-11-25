@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/boxOffice/static/css/main.5d53824e.css",
+    "main.js": "/boxOffice/static/js/main.83b4fe67.js",
+    "static/js/206.dc6adace.chunk.js": "/boxOffice/static/js/206.dc6adace.chunk.js",
+    "index.html": "/boxOffice/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5d53824e.css",
+    "static/js/main.83b4fe67.js"
+  ]
+}
