@@ -51,7 +51,7 @@ export default function Main() {
         const fetchDetail = async () => {
             //URL 정의
             const url = `${kobisBaseUrl}/movie/searchMovieInfo.json?key=${kobisApiKey}&movieCd=${movieCd}`;
-            const urlPoster = `${kmdbBaseUrl}/search_json2.jsp?collection=kmdb_new2&ServiceKey=${kmdbApiKey}&title=${movieNm}`;
+            const urlPoster = `${kmdbBaseUrl.replace('http:', 'https:')}/search_json2.jsp?collection=kmdb_new2&ServiceKey=${kmdbApiKey}&title=${movieNm}`;
             const defaultPoster = `${process.env.PUBLIC_URL}/img/default.jpg`;
 
             // 호출
